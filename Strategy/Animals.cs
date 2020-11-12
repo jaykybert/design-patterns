@@ -1,5 +1,5 @@
 ﻿
-namespace Development.Strategy
+namespace Patterns.Strategy
 {
     // Concrete Animal Class 1
     public class Dog : Animal

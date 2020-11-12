@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Development.Strategy
+namespace Patterns.Strategy
 {
     /* 
      * The strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.
@@ -24,7 +24,7 @@ namespace Development.Strategy
      * 
      */
 
-    class Demo
+    public static class Demo
     {
          public static void ShowDemo()
         {

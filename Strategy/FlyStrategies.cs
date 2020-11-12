@@ -1,5 +1,5 @@
 ﻿
-namespace Development.Strategy
+namespace Patterns.Strategy
 {
     // Fly Strategy 1
     class FlyStrategy : IFly

@@ -1,5 +1,5 @@
 ﻿
-namespace Development.Strategy
+namespace Patterns.Strategy
 {
     public abstract class Animal
     {
