@@ -6,8 +6,9 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("(1) Strategy\n(2) Observer");
+            Console.WriteLine("(1) Strategy\n(2) Observer\n(3) Decorator\n");
             ConsoleKeyInfo keyPress = Console.ReadKey();
+            Console.WriteLine("");
             if(keyPress.KeyChar == '1')
             {
                 Strategy.Demo.ShowDemo();
@@ -15,6 +16,10 @@ namespace Patterns
             else if(keyPress.KeyChar == '2')
             {
                 Observer.Demo.ShowDemo();
+            }
+            else if(keyPress.KeyChar == '3')
+            {
+                Decorator.Demo.ShowDemo();
             }
 
             else

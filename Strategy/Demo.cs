@@ -28,8 +28,6 @@ namespace Patterns.Strategy
     {
          public static void ShowDemo()
         {
-            // You could also hard-code the behaviours in the respective constructors (if they won't change). I.E. Dog() { FlyingBehaviour = ... }
-
             Dog dog = new Dog("Charlie", new NoFlyStrategy());
             Bird bird = new Bird("Tweety", new FlyStrategy());
 
