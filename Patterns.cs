@@ -6,7 +6,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("(1) Strategy\n(2) Observer\n(3) Decorator\n");
+            Console.WriteLine("(1) Strategy\n(2) Observer\n(3) Decorator\n(4) Factory Method");
             ConsoleKeyInfo keyPress = Console.ReadKey();
             Console.WriteLine("");
             if(keyPress.KeyChar == '1')
@@ -21,7 +21,10 @@ namespace Patterns
             {
                 Decorator.Demo.ShowDemo();
             }
-
+            else if(keyPress.KeyChar == '4')
+            {
+                Factory.Demo.ShowDemo();
+            }
             else
             {
                 Console.WriteLine("Invalid Input.");

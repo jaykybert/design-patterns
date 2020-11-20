@@ -5,14 +5,12 @@ namespace Patterns.Decorator
     /* 
      * The decorator pattern attaches additional responsibilites for an object dynamically.
      * Decorators provide a flexible alternative to subclassing for extending functionality.
-     */
-
-    /*
+     *
+     *
      *  When to use:
      *      * When you want the capabilities of inheritance with subclasses, but you need to add functionality at runtime.
-     */
-
-    /*
+     *
+     *
      *  Pros / Cons
      *      + More flexibile than inheritance.
      *      + Simplifies code because you add functionality using many simple classes.
