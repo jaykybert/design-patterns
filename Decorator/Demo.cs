@@ -22,7 +22,7 @@ namespace Patterns.Decorator
      *      * https://www.youtube.com/watch?v=j40kRwSm4VE&t=593s
      *      * https://stackoverflow.com/questions/25663525/decorator-pattern-and-c-sharp/25664356
      */
-    class Demo
+    public static class Demo
     {
         public static void ShowDemo()
         {

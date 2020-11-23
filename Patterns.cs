@@ -6,7 +6,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("(1) Strategy\n(2) Observer\n(3) Decorator\n(4) Factory Method");
+            Console.WriteLine("(1) Strategy\n(2) Observer\n(3) Decorator\n(4) Factory Method\n(5) Abstract Factory");
             ConsoleKeyInfo keyPress = Console.ReadKey();
             Console.WriteLine("");
             if(keyPress.KeyChar == '1')
@@ -24,6 +24,10 @@ namespace Patterns
             else if(keyPress.KeyChar == '4')
             {
                 Factory.Demo.ShowDemo();
+            }
+            else if(keyPress.KeyChar == '5')
+            {
+                Abstract_Factory.Demo.ShowDemo();
             }
             else
             {
