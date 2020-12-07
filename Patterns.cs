@@ -13,38 +13,42 @@ namespace Patterns
                               "(5) Facade\n" +
                               "(6) Factory Method\n" +
                               "(7) Observer\n" +
-                              "(8) Singleton\n" +
-                              "(9) Strategy");
+                              "(8) Proxy\n" +
+                              "(9) Singleton\n" +
+                              "(10) Strategy");
 
-            ConsoleKeyInfo keyPress = Console.ReadKey();
+            string keyPress = Console.ReadLine();
 
-            switch(keyPress.KeyChar)
+            switch(keyPress)
             {
-                case '1':
+                case "1":
                     Abstract_Factory.Demo.ShowDemo();
                     break;
-                case '2':
+                case "2":
                     Adapter.Demo.ShowDemo();
                     break;
-                case '3':
+                case "3":
                     Command.Demo.ShowDemo();
                     break;
-                case '4':
+                case "4":
                     Decorator.Demo.ShowDemo();
                     break;
-                case '5':
+                case "5":
                     Facade.Demo.ShowDemo();
                     break;
-                case '6':
+                case "6":
                     Factory.Demo.ShowDemo();
                     break;
-                case '7':
+                case "7":
                     Observer.Demo.ShowDemo();
                     break;
-                case '8':
+                case "8":
+                    Proxy.Demo.ShowDemo();
+                    break;
+                case "9":
                     Singleton.Demo.ShowDemo();
                     break;
-                case '9':
+                case "10":
                     Strategy.Demo.ShowDemo();
                     break;
                 default:

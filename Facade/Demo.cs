@@ -26,7 +26,6 @@ namespace Patterns.Facade
         /* Note: The code inside the subsystem isn't specific to the facade pattern,
          * it just emulates complex interactions that can be abstracted to a higher level.
          */
-
         public static void ShowDemo()
         {
             // Interact with the facade, which in turn interacts with the subsystem.
