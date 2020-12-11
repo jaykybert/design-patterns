@@ -16,7 +16,8 @@ namespace Patterns
                               "(8) Observer\n" +
                               "(9) Proxy\n" +
                               "(10) Singleton\n" +
-                              "(11) Strategy");
+                              "(11) Strategy\n" +
+                              "(12) Template");
 
             string keyPress = Console.ReadLine();
 
@@ -54,6 +55,9 @@ namespace Patterns
                     break;
                 case "11":
                     Strategy.Demo.ShowDemo();
+                    break;
+                case "12":
+                    Template.Demo.ShowDemo();
                     break;
                 default:
                     Console.WriteLine("Invalid Input.");
