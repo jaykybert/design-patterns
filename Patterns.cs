@@ -10,14 +10,15 @@ namespace Patterns
                               "(2) Adapter\n" +
                               "(3) Bridge\n" +
                               "(4) Command\n" +
-                              "(5) Decorator\n" +
-                              "(6) Facade\n" +
-                              "(7) Factory Method\n" +
-                              "(8) Observer\n" +
-                              "(9) Proxy\n" +
-                              "(10) Singleton\n" +
-                              "(11) Strategy\n" +
-                              "(12) Template");
+                              "(5) Composite\n" +
+                              "(6) Decorator\n" +
+                              "(7) Facade\n" +
+                              "(8) Factory Method\n" +
+                              "(9) Observer\n" +
+                              "(10) Proxy\n" +
+                              "(11) Singleton\n" +
+                              "(12) Strategy\n" +
+                              "(13) Template");
 
             string keyPress = Console.ReadLine();
 
@@ -36,27 +37,30 @@ namespace Patterns
                     Command.Demo.ShowDemo();
                     break;
                 case "5":
-                    Decorator.Demo.ShowDemo();
+                    Composite.Demo.ShowDemo();
                     break;
                 case "6":
-                    Facade.Demo.ShowDemo();
+                    Decorator.Demo.ShowDemo();
                     break;
                 case "7":
-                    Factory.Demo.ShowDemo();
+                    Facade.Demo.ShowDemo();
                     break;
                 case "8":
-                    Observer.Demo.ShowDemo();
+                    Factory.Demo.ShowDemo();
                     break;
                 case "9":
-                    Proxy.Demo.ShowDemo();
+                    Observer.Demo.ShowDemo();
                     break;
                 case "10":
-                    Singleton.Demo.ShowDemo();
+                    Proxy.Demo.ShowDemo();
                     break;
                 case "11":
-                    Strategy.Demo.ShowDemo();
+                    Singleton.Demo.ShowDemo();
                     break;
                 case "12":
+                    Strategy.Demo.ShowDemo();
+                    break;
+                case "13":
                     Template.Demo.ShowDemo();
                     break;
                 default:
