@@ -14,11 +14,12 @@ namespace Patterns
                               "(6) Decorator\n" +
                               "(7) Facade\n" +
                               "(8) Factory Method\n" +
-                              "(9) Observer\n" +
-                              "(10) Proxy\n" +
-                              "(11) Singleton\n" +
-                              "(12) Strategy\n" +
-                              "(13) Template");
+                              "(9) Iterator\n" +
+                              "(10) Observer\n" +
+                              "(11) Proxy\n" +
+                              "(12) Singleton\n" +
+                              "(13) Strategy\n" +
+                              "(14) Template");
 
             string keyPress = Console.ReadLine();
 
@@ -49,18 +50,21 @@ namespace Patterns
                     Factory.Demo.ShowDemo();
                     break;
                 case "9":
-                    Observer.Demo.ShowDemo();
+                    Iterator.Demo.ShowDemo();
                     break;
                 case "10":
-                    Proxy.Demo.ShowDemo();
+                    Observer.Demo.ShowDemo();
                     break;
                 case "11":
-                    Singleton.Demo.ShowDemo();
+                    Proxy.Demo.ShowDemo();
                     break;
                 case "12":
-                    Strategy.Demo.ShowDemo();
+                    Singleton.Demo.ShowDemo();
                     break;
                 case "13":
+                    Strategy.Demo.ShowDemo();
+                    break;
+                case "14":
                     Template.Demo.ShowDemo();
                     break;
                 default:
