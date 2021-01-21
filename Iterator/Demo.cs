@@ -62,10 +62,8 @@ namespace Patterns.Iterator
             {
                 Console.WriteLine($"\t{song.Value.Name} - {song.Value.Artist} ({song.Value.ReleaseYear})");
             }
-
-            
+   
             Console.WriteLine("\n----------\n");
-
 
             // Iterator Approach
             SongsOfThe70s seventies = new SongsOfThe70s(); // Data stored as List<Song>.
@@ -89,7 +87,6 @@ namespace Patterns.Iterator
             {
                 Console.WriteLine($"\t{song.Name} - {song.Artist} ({song.ReleaseYear})");
             }
-
         }
     }
 }

@@ -18,8 +18,9 @@ namespace Patterns
                               "(10) Observer\n" +
                               "(11) Proxy\n" +
                               "(12) Singleton\n" +
-                              "(13) Strategy\n" +
-                              "(14) Template");
+                              "(13) State\n" +
+                              "(14) Strategy\n" +
+                              "(15) Template");
 
             string keyPress = Console.ReadLine();
 
@@ -62,9 +63,12 @@ namespace Patterns
                     Singleton.Demo.ShowDemo();
                     break;
                 case "13":
-                    Strategy.Demo.ShowDemo();
+                    State.Demo.ShowDemo();
                     break;
                 case "14":
+                    Strategy.Demo.ShowDemo();
+                    break;
+                case "15":
                     Template.Demo.ShowDemo();
                     break;
                 default:
